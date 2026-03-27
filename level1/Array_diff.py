@@ -1,5 +1,5 @@
-#this function requires removing all elements present in list b from list a while preserving the original order 
-# level kyu6
+#problem : removing all elements present in list b from list a while preserving the original order 
+# source:cde_kyu6
 def array_diff(a, b):
     set_b=set(b)
     return [i for i in a if i not in set_b]# not in use for list 
