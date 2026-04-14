@@ -1,5 +1,5 @@
 #problem:find (a,b) from a sequence 1 to n such that a*b equals the sum of all other numbers in the sequence.
-#level:cde_kyu5
+#source:cdewars_kyu5
 #
 def remov_nb(n):
     sum=n*(n+1)//2 # i use this not loop cause this faster (summing num manually)
